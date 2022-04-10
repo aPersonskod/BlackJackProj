@@ -1,0 +1,24 @@
+# ninja log v5
+2	210	6713087887196800	CMakeFiles/BlackJackProj.dir/main.cpp.obj	67569d9ba0078e
+630	818	6707134114618980	BlackJackProj.exe	55d4db77b994486e
+0	21	0	clean	85650328b38a24bf
+0	192	6713276055794445	build.ninja	eef74a6cee674e2e
+0	11	0	clean	85650328b38a24bf
+2	100	6713276629538909	CMakeFiles/BlackJackProj.dir/main.cpp.obj	a4c0fc7a779e9d80
+14	1077	6713276639207881	glfw/src/CMakeFiles/glfw.dir/init.c.obj	9caca48a8cc1099a
+40	1095	6713276639287837	glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	9063447bc0fceb9e
+43	1096	6713276639459678	glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	d32776aea5732a82
+19	1096	6713276639389126	glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	8b81708cd25b75e5
+25	1100	6713276639474674	glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	3e21df401e5a733f
+22	1103	6713276639569141	glfw/src/CMakeFiles/glfw.dir/window.c.obj	a7d14092f00ee8db
+30	1112	6713276639666863	glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	b51449894a21ebcf
+63	1114	6713276639696766	glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	6bc98cfeba3d7bd
+12	1116	6713276639716696	glfw/src/CMakeFiles/glfw.dir/context.c.obj	50623e424f6ef2ed
+16	1122	6713276639766536	glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	6b58461fc4524c2c
+18	1140	6713276639955894	glfw/src/CMakeFiles/glfw.dir/input.c.obj	79eb62fb2e79be86
+27	1155	6713276640095438	glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	70fd8f545d58f5c5
+60	1160	6713276640165204	glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	3e2a50658517d09e
+37	1161	6713276640175167	glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	6d8caa0f119f94ee
+33	1178	6713276640344598	glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	d2dd742fd9b9adf2
+1178	1232	6713276640902775	glfw/src/libglfw3.a	2cfbe74512c2f1d1
+1232	1330	6713276641840155	BlackJackProj.exe	6fec588d69fe4f60

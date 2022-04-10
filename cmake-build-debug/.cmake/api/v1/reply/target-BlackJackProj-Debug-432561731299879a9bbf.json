@@ -13,7 +13,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -27,7 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -42,6 +49,13 @@
 				},
 				{
 					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/flash/A/projects c++/sutd/BlackJackProj/glfw/include"
 				}
 			],
 			"language" : "CXX",
@@ -59,6 +73,13 @@
 			]
 		}
 	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@12507ebf64a5258d241e"
+		}
+	],
 	"id" : "BlackJackProj::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
@@ -69,8 +90,23 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-mwindows",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lglu32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glfw\\src\\libglfw3.a",
+				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
